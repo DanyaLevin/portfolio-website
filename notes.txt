@@ -1,0 +1,32 @@
+This is going to be a resume website.
+
+Built with HTML, CSS and Javascript, obviously, as I don't know shit else.
+
+The main cool thing will be "click to see more" thingy:
+    - items sourced
+        - photo
+        - title
+    - responsibilities
+        - bulleted list
+    - reported to
+        - photo
+        - LinkedIn profile
+        - contact details?
+    - achievements
+        - check icons
+        - punchlines
+    - documents
+        - diplomas
+        - certificates
+
+Deadline: July 31st, got to move on with coding from there. A hour or two per day, I guess.
+
+Wireframe actually drawn on a piece of paper with an old pen. Helpful, I admit.
+
+Aparently I never installed Git on Neuron, only on Mac. Ok, will install later.
+
+Still got to do:
+    - Fill in the missing content
+    - Set a document name for saving and printing
+
+Surely, there is much=much more I can do here, but I need to move on...

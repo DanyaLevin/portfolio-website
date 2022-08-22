@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script  src="script.js" defer></script>
+</head>
+<body>
+
+
+
+
+
+<div class="print">
+    <h1>Daniil Levin</h1>
+</div>
+
+
+
+
+
+<div class="main-content">
+<!-- Header -->
+
+
+
+
+
+<header>
+    <div class="container">
+        <div id="name">
+        <h1>Daniil Levin</h1>
+        </div>
+        <div id="nav">
+        <nav>
+            <ul>
+                <li><a href="#exp-section">Experience</a></li>
+                <li><a href="#edu-section">Education</a></li>
+                <li><a href="#training-section">Skills</a></li>
+                <li><a href="#footer">Contacts</a></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+</header>
+<hr id="upper-hr">
+
+
+
+
+
+<!-- Introduction Section -->
+
+
+
+
+
+<div id="intro-section">
+    <div class="intro-text">
+        <!-- Insert "Available Immediately" after the following <p> tag if broke as hell-->
+        <h3>Swiss<br></h3>
+    </div>
+    <div id='intro-img'>
+        <img onclick="nextPhoto()" src="resources/Daniil Levin Photo 1.jpeg">
+    </div>
+    <div class="headline">
+        <hr>
+        <h3>Procurement consultant in aviation, electronics and healthcare industries.</h3>
+        <hr>
+    </div>
+</div>
+
+<button id='expand-all-button' class='no-print' onclick="expandAllInfo()">Expand All Fields</button>
+<button id='revert-button' class='no-print' onclick="revert()">Revert to Original</button>
+
+
+
+
+
+<!-- Experience Section -->
+
+
+
+
+
+<div id="exp-section">
+    <h2>Experience</h2>
+    <div class="experience">
+        <div class="period">
+            <h3>2022+</h3>
+        </div>
+        <div class="title">
+            <h3>Consultant @ Swissport</h3>
+        </div>
+        <ul>
+            <li><a id='exp-5-com' onclick="toggleMore('exp-5-com', 'exp-5-com-more')">Company</a></li>
+            <p id='exp-5-com-more' class="to-be-expanded">Multinational aviation services company providing airport ground and cargo handling services. Headquartered in Zurich Area, Switzerland.<br><a class="blue-link no-print" href="https://www.swissport.com/en/about" target="_blank">Learn More</a></p>
+            <!-- <li><a id="exp-5-res">Responsibilities</a></li> -->
+            <!-- <li><a id="exp-5-ach">Achievements</a></li> -->
+            <li><a id='exp-5-man' onclick="toggleMore('exp-5-man', 'exp-5-man-more')">Reporting To</a></li>
+            <p id='exp-5-man-more' class="to-be-expanded">Artsiom Karabanau, Head of Direct Procurement, Head Office<br><a class="blue-link no-print" href="https://www.linkedin.com/in/artsiom-karabanau-94355a33/" target="_blank">LinkedIn Profile</a></p>
+            <!-- <li><a id="exp-5-doc">Reference Letter</a></li> -->
+        </ul>
+    </div>
+    <div class="experience">
+        <div class="period">
+            <h3>2020-2022</h3>
+        </div>
+        <div class="title">
+            <h3>Subcategory Leader @ 3M</h3>
+        </div>
+        <ul>
+            <li><a id='exp-4-com' onclick="toggleMore('exp-4-com', 'exp-4-com-more')">Company</a></li>
+            <p id='exp-4-com-more' class="to-be-expanded">Multinational conglomerate corporation operating in the fields of industry, worker safety, healthcare and consumer goods. Headquartered in Saint Paul, USA.<br><a class="blue-link no-print" href="https://www.3m.com/3M/en_US/company-us/about-3m/" target="_blank">Learn More</a></p>
+            <li><a id='exp-4-res' onclick="toggleMore('exp-4-res', 'exp-4-res-more')">Responsibilities</a></li>
+            <p id='exp-4-res-more'>
+                → Devised and executed the subcategory strategy, in line with corporate goals<br>
+                → Used market reports, price indices, spend extracts, and forecasts to secure timely supply and advantageous pricing<br>
+                → Provided procurement intelligence to internal stakeholders<br>
+                → Minimized risks of supply for long lead-time components via purchase authorizations,
+                commitments, and periodic data exchange<br>
+                → Supported new product introductions with supplier search, assessment, selection, and eventual set-up of business-as-usual<br>
+                → Negotiated prices and contractual terms, issued requests for quotations and tenders<br>
+                → Tracked and managed supplier performance with key performance indicators<br>
+                → Drove change in a global matrix organization<br>
+                → Onboarded suppliers to eCommerce for fully digital transactions</p>
+            <li><a id='exp-4-cat' onclick="toggleMore('exp-4-cat', 'exp-4-cat-more')">Categories Procured</a></li>
+            <p id='exp-4-cat-more' class="to-be-expanded"> Direct goods - electronic components and finished products for electrical and healthcare markets: printed circuit board assemblies, resin encapsulation, current transformers, cable connectors, heat shrink sleeves, surgical clippers, vaccine holders, etc.</p>
+            <!-- <li><a>Achievements</a></li> -->
+            <li><a id='exp-4-man' onclick="toggleMore('exp-4-man', 'exp-4-man-more')">Reported To</a></li>
+            <p id='exp-4-man-more' class="to-be-expanded">Norbert Syben, Category Leader, EMEA Office<br><a class="blue-link no-print" href="https://www.linkedin.com/in/norbert-syben-3071091/" target="_blank">LinkedIn Profile</a></p>
+            <li><a class="blue-link no-print" href="resources/Daniil Levin Letter 2.pdf" download target="_blank">Reference Letter</a></li>
+        </ul>
+    </div>
+    <div class="experience">
+        <div class="period">
+            <h3>2019-2020</h3>
+        </div>
+        <div class="title">
+            <h3>Global Category Manager @ Swissport</h3>
+        </div>
+        <ul>
+            <li><a id='exp-3-com' onclick="toggleMore('exp-3-com', 'exp-3-com-more')">Company</a></li>
+            <p id='exp-3-com-more' class="to-be-expanded">Multinational aviation services company providing airport ground and cargo handling services. Headquartered in Zurich Area, Switzerland.<br><a class="blue-link no-print" href="https://www.swissport.com/en/about" target="_blank">Learn More</a></p>
+            <li><a id='exp-3-res' onclick="toggleMore('exp-3-res', 'exp-3-res-more')">Responsibilities</a></li>
+            <p id='exp-3-res-more'>
+                → Devised and executed the category strategy, in line with corporate goals<br>
+                → Supervised buyer’s work, operational procurement, and logistics management<br>
+                → Trained colleagues in the region on negotiation and operational procurement<br>
+                → Drove change in a global matrix organization<br>
+                → Used price indices, spend extracts, and forecasts to secure timely supply and advantageous pricing<br>
+                → Provided procurement intelligence to internal stakeholders<br>
+                → Supported new business rollouts by procuring faster than competition<br>
+                → Monitored market trends and innovation, arranged tests of new technologies<br>
+                → Negotiated prices and contractual terms, issued requests for quotations and tenders<br>
+                → Tracked and managed supplier performance with key performance indicators<br>
+                → Worked with finance department on forecasting and budgeting</p>
+                <li><a id='exp-3-cat' onclick="toggleMore('exp-3-cat', 'exp-3-cat-more')">Categories Procured</a></li>
+                <p id='exp-3-cat-more'> Direct goods - ground support equipment for aviation markets: airplane tractors, passenger buses, forklifts, deicers, etc.</p>
+            <!-- <li><a>Achievements</a></li> -->
+            <li><a id='exp-3-man' onclick="toggleMore('exp-3-man', 'exp-3-man-more')">Reported To</a></li>
+            <p id='exp-3-man-more' class="to-be-expanded">Artsiom Karabanau, Head of Direct Procurement, Head Office<br><a class="blue-link no-print" href="https://www.linkedin.com/in/artsiom-karabanau-94355a33/" target="_blank">LinkedIn Profile</a></p>
+            <li><a class="blue-link no-print" href="resources/Daniil Levin Letter 1.pdf" download target="_blank">Reference Letter</a></li>
+        </ul>
+    </div>
+    <div class="experience">
+        <div class="period">
+            <h3>2016-2019</h3>
+        </div>
+        <div class="title">
+            <h3>Category Specialist @ Swissport</h3>
+        </div>
+        <ul>
+            <li><a id='exp-2-com' onclick="toggleMore('exp-2-com', 'exp-2-com-more')">Company</a></li>
+            <p id='exp-2-com-more' class="to-be-expanded">Multinational aviation services company providing airport ground and cargo handling services. Headquartered in Zurich Area, Switzerland.<br><a class="blue-link no-print" href="https://www.swissport.com/en/about" target="_blank">Learn More</a></p>
+            <li><a id='exp-2-res' onclick="toggleMore('exp-2-res', 'exp-2-res-more')">Responsibilities</a></li>
+            <p id='exp-2-res-more'>
+                → Worked with engineering teams as to draft industry-leading specification for higher safety standards and longer lifetime<br>
+                → Supervised buyer's work, operational procurement<br>
+                → Arranged worldwide logistics of ground support equipment, containerized and oversized<br>
+                → Used price indices, spend extracts, and forecasts to secure timely supply and advantageous pricing<br>
+                → Provided procurement intelligence to internal stakeholders<br>
+                → Supported new business rollouts by procuring faster than competition<br>
+                → Monitored market trends and innovation<br>
+                → Negotiated prices and contractual terms, issued requests for quotations<br>
+                → Centralized, tracked, and managed supplier performance with key performance indicators<br>
+                → Worked with finance department on forecasting and budgeting</p>
+                <li><a id='exp-2-cat' onclick="toggleMore('exp-2-cat', 'exp-2-cat-more')">Categories Procured</a></li>
+                <p id='exp-2-cat-more' class="to-be-expanded">Direct goods and services - ground support equipment for aviation markets: airplane tractors, passenger buses, forklifts, deicers, etc., and its global logistics</p>
+                <li><a id='exp-2-ach' onclick="toggleMore('exp-2-ach', 'exp-2-ach-more')">Achievements</a></li>
+                <p id='exp-2-ach-more' class="to-be-expanded">
+                → Conducted 200 M EUR global tender, involving 80 suppliers to bid for 60 categories of
+                goods; concluded 25 framework supply agreements<br>
+                → Worked in regional procurement over a four-month secondment in United Kingdom</p>
+            <li><a id='exp-2-man' onclick="toggleMore('exp-2-man', 'exp-2-man-more')">Reported To</a></li>
+            <p id='exp-2-man-more' class="to-be-expanded">Artsiom Karabanau, Head of Direct Procurement, Head Office<br><a class="blue-link no-print" href="https://www.linkedin.com/in/artsiom-karabanau-94355a33/" target="_blank">LinkedIn Profile</a></p>
+            <li><a class="blue-link no-print" href="resources/Daniil Levin Letter 1.pdf" download target="_blank">Reference Letter</a></li>
+        </ul>
+    </div>
+    <div class="experience">
+        <div class="period">
+            <h3>2015-2016</h3>
+        </div>
+        <div class="title">
+            <h3>Buyer @ Swissport</h3>
+        </div>
+        <ul>
+            <li><a id='exp-1-com' onclick="toggleMore('exp-1-com', 'exp-1-com-more')">Company</a></li>
+            <p id='exp-1-com-more' class="to-be-expanded">Multinational aviation services company providing airport ground and cargo handling services. Headquartered in Zurich Area, Switzerland.<br><a class="blue-link no-print" href="https://www.swissport.com/en/about" target="_blank">Learn More</a></p>
+            <li><a id='exp-1-res' onclick="toggleMore('exp-1-res', 'exp-1-res-more')">Responsibilities</a></li>
+            <p id='exp-1-res-more'>
+                → Generated purchase orders and tracked shipments<br>
+                → Maintained order log and product catalogue<br>
+                → Reviewed and compared supplier offers during tenders<br>
+                → Negotiated prices, issued requests for quotations</p>
+                <li><a id='exp-1-cat' onclick="toggleMore('exp-1-cat', 'exp-1-cat-more')">Categories Procured</a></li>
+                <p id='exp-1-cat-more' class="to-be-expanded">Direct goods - ground support equipment for aviation markets: airplane tractors, passenger buses, forklifts, deicers, etc.</p>
+                <li><a id='exp-1-ach' onclick="toggleMore('exp-1-ach', 'exp-1-ach-more')">Achievements</a></li>
+                <p id='exp-1-ach-more' class="to-be-expanded">
+                Designed and implemented a requisitioning and ordering tool and a standard operating procedure for ordering equipment, saving 1 full-time equivalent</p>
+            <li><a id='exp-1-man' onclick="toggleMore('exp-1-man', 'exp-1-man-more')">Reported To</a></li>
+            <p id='exp-1-man-more' class="to-be-expanded">Frederic Pleeck, Global Category Manager, Head Office<br><a class="blue-link no-print" href="https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-pleeck-a87bb83/" target="_blank">LinkedIn Profile</a></p>
+            <li><a class="blue-link no-print" href="resources/Daniil Levin Letter 1.pdf" download target="_blank">Reference Letter</a></li>
+        </ul>
+    </div>
+    <hr>
+</div>
+
+
+
+
+
+<!-- Education Section -->
+
+
+
+
+
+<div id="edu-section">
+    <h2>Education</h2>
+    <div class="education">
+        <div class="period">
+            <h3>2014-2015</h3>
+        </div>
+        <div class="title">
+            <h3>Master of Science in Global Supply Chain Management</h3>
+        </div>
+        <ul>
+            <li><a id='edu-3-est' onclick="toggleMore('edu-3-est', 'edu-3-est-more')">Establishment</a></li>
+            <p id='edu-3-est-more' class="to-be-expanded">
+                Bayes Business School, formerly known as Cass Business School, is the business school of City, University of London based in London, UK.<br><a class="blue-link no-print" href="https://www.bayes.city.ac.uk/about" target="_blank">Learn More</a></p>
+                <li><a class="blue-link no-print" href="resources/Daniil Levin GSCM.pdf" download target="_blank">Diploma</a></li>
+        </ul>
+    </div>
+    <div class="education">
+        <div class="period">
+            <h3>2011-2014</h3>
+        </div>
+        <div class="title">
+            <h3>Bachelor of Science in Business Administration</h3>
+        </div>
+        <ul>
+            <li><a id='edu-2-est' onclick="toggleMore('edu-2-est', 'edu-2-est-more')">Establishment</a></li>
+            <p id='edu-2-est-more' class="to-be-expanded">
+                Webster University Geneva is the Swiss campus of Webster University based in St. Louis, USA.<br><a class="blue-link no-print" href="https://webster.edu/about/index.php" target="_blank">Learn More</a></p>
+                <li><a class="blue-link no-print" href="resources/Daniil Levin BA.pdf" download target="_blank">Diploma</a></li>
+        </ul>
+    </div>
+    <div class="education">
+        <div class="period">
+            <h3>2011-2014</h3>
+        </div>
+        <div class="title">
+            <h3>Bachelor of Arts in International Relations</h3>
+        </div>
+        <ul>
+            <li><a id='edu-1-est' onclick="toggleMore('edu-1-est', 'edu-1-est-more')">Establishment</a></li>
+            <p id='edu-1-est-more' class="to-be-expanded">
+                Webster University Geneva is the Swiss campus of Webster University based in St. Louis, USA.<br><a class="blue-link no-print" href="https://webster.edu/about/index.php" target="_blank">Learn More</a></p>
+                <li><a class="blue-link no-print" href="resources/Daniil Levin IR.pdf" download target="_blank">Diploma</a></li>
+        </ul>
+    </div>
+    <hr>
+</div>
+
+
+
+
+
+<!-- Further Training Section -->
+
+
+
+
+
+<div id="training-section">
+    <h2>Further Training</h2>
+    <div class="training">
+        <div class="period">
+            <h3>2020</h3>
+        </div>
+        <div class="title">
+            <h3>Lean Six Sigma Green Belt Training @ 3M</h3>
+        </div>
+        <ul>
+            <li><a id='tra-4-est' onclick="toggleMore('tra-4-est', 'tra-4-est-more')">Establishment</a></li>
+            <p id='tra-4-est-more' class="to-be-expanded">Multinational conglomerate corporation operating in the fields of industry, worker safety, healthcare and consumer goods. Headquartered in Saint Paul, USA.<br><a class="blue-link no-print" href="https://www.3m.com/3M/en_US/company-us/about-3m/" target="_blank">Learn More</a></p>
+            <li><a id='tra-4-des' onclick="toggleMore('tra-4-des', 'tra-4-des-more')">Description</a></li>
+            <p id='tra-4-des-more' class="to-be-expanded">Lean Six Sigma is a method that relies on a collaborative team effort to improve performance by systematically removing waste and reducing variation. Green Belts are the employees who take up Six Sigma implementation along with their other job responsibilities, operating under the guidance of Black Belts.<br><a class="blue-link no-print" href="https://en.wikipedia.org/wiki/Six_Sigma#Certification" target="_blank">Learn More</a></p>
+            <li><a class="blue-link no-print" href="resources/Daniil Levin LSS GB.pdf" download target="_blank">Certificate</a></li>
+        </ul>
+    </div>
+    <div class="training">
+        <div class="period">
+            <h3>2020</h3>
+        </div>
+        <div class="title">
+            <h3>Level 4 Procurement and Supply Course @ CIPS</h3>
+        </div>
+        <ul>
+            <li><a id='tra-3-est' onclick="toggleMore('tra-3-est', 'tra-3-est-more')">Establishment</a></li>
+            <p id='tra-3-est-more' class="to-be-expanded">The Chartered Institute of Procurement & Supply is a global professional body working for the procurement and supply profession in most regions of the world. It promotes best practice in procurement.<br><a class="blue-link no-print" href="https://www.cips.org/about-us" target="_blank">Learn More</a></p>
+            <li><a id='tra-3-des' onclick="toggleMore('tra-3-des', 'tra-3-des-more')">Description</a></li>
+            <p id='tra-3-des-more' class="to-be-expanded">Level 4 Diploma may be attempted upon two years of relevant experience in a business environment. It provides an essential toolkit for a career in procurement and supply and requires 600 hours of total qualification time.<br><a class="blue-link no-print" href="https://en.wikipedia.org/wiki/Six_Sigma#Certification" target="_blank">Learn More</a></p>
+            <li><a class="blue-link no-print" href="resources/Daniil Levin L4.pdf" download target="_blank">Certificate</a></li>
+        </ul>
+    </div>
+    <div class="training">
+        <div class="period">
+            <h3>2017</h3>
+        </div>
+        <div class="title">
+            <h3>Contract Management Training @ Swissport</h3>
+        </div>
+        <ul>
+            <li><a id='tra-2-est' onclick="toggleMore('tra-2-est', 'tra-2-est-more')">Establishment</a></li>
+            <p id='tra-2-est-more' class="to-be-expanded">Multinational aviation services company providing airport ground and cargo handling services. Headquartered in Zurich Area, Switzerland.<br><a class="blue-link no-print" href="https://www.cips.org/about-us" target="_blank">Learn More</a></p>
+            <li><a id='tra-2-des' onclick="toggleMore('tra-2-des', 'tra-2-des-more')">Description</a></li>
+            <p id='tra-2-des-more' class="to-be-expanded">
+                The course provides the required competency to understand key aspects of contracts, assess contractural risks, drive contract management process, and gauge and improve the effectivenes and worth of contracts.<br></p>
+            <li><a class="blue-link no-print" href="resources/Daniil Levin CM.pdf" download target="_blank">Certificate</a></li>
+        </ul>
+    </div>
+    <div class="training">
+        <div class="period">
+            <h3>2016</h3>
+        </div>
+        <div class="title">
+            <h3>Procurement Development Workshop @ McKinsey</h3>
+        </div>
+        <ul>
+            <li><a id='tra-1-est' onclick="toggleMore('tra-1-est', 'tra-1-est-more')">Establishment</a></li>
+            <p id='tra-1-est-more' class="to-be-expanded">Global management consulting firm that offers professional services to corporations, governments and other organizations.<br><a class="blue-link no-print" href="https://www.mckinsey.com/about-us/overview" target="_blank">Learn More</a></p>
+            <li><a id='tra-1-des' onclick="toggleMore('tra-1-des', 'tra-1-des-more')">Description</a></li>
+            <p id='tra-1-des-more' class="to-be-expanded">
+                Five-day procurement development workshop at the Alpine University.<br></p>
+        </ul>
+    </div>
+    <hr>
+</div>
+
+
+
+
+
+<!-- Languages Section -->
+
+
+
+
+
+<div id="languages-section">
+    <h2>Languages</h2>
+    <div class="language">
+        <div class="title">
+            <h3>Russian</h3>
+        </div>
+        <div class="level">
+            <h3>Mother tongue</h3>
+        </div>
+    </div>
+    <br>
+    <div class="language">
+        <div class="title">
+            <h3>English</h3>
+        </div>
+        <div class="level">
+            <h3>Proficient</h3>
+        </div>
+        <ul>
+            <li><a>Working in English since 2015</a></li>
+            <li><a>Studied in English at high school and both business schools</a></li>
+        </ul>
+    </div>
+    <div class="language">
+        <div class="title">
+            <h3>French</h3>
+        </div>
+        <div class="level">
+            <h3>Upper-intermediate</h3>
+        </div>
+            <ul>
+                <li><a>Occasionally carrying out negotiations with suppliers in French</a></li>
+                <li><a>Studied in French at secondary school</a></li>
+            </ul>
+    </div>
+    <hr>
+</div>
+
+
+
+
+
+<!-- IT Skills Section -->
+
+
+
+
+
+<div id="it-section">
+    <h2>IT Skills</h2>
+    <div class="it-skill">
+        <div class="title">
+            <h3>Microsoft Office</h3>
+        </div>
+        <div class="level">
+            <h3>Proficient</h3>
+        </div>
+        <ul>
+            <li><a>Excel, OneDrive, Outlook, PowerPoint, SharePoint, Teams, Word</a></li>
+            <li><a>Smartsheet, OneNote</a></li>
+        </ul>
+    </div>
+    <div class="it-skill">
+        <div class="title">
+            <h3>Full-Stack Development</h3>
+        </div>
+        <div class="level">
+            <h3>In Progress</h3>
+        </div>
+        <ul>
+            <li><a>Wrote the code behind this personal website</a></li>
+        </ul>
+    </div>
+    <!-- <div class="it-skill">
+        <div class="title">
+            <h3>SAP ERP</h3>
+        </div>
+        <ul>
+            <li><a>Sourcing</a></li>
+        </ul>
+    </div> -->
+    <hr>
+</div>
+
+
+
+
+
+<!-- Video Section -->
+
+
+
+
+
+<!-- Video Section -->
+
+
+
+
+
+<!-- Footer -->
+
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="address">
+            <h3>Neuchatel<br>Switzerland</h3>
+        </div>
+        <div class="contacts">
+            <h3>daniilevin.work@icloud.com<br>+41 79 410 10 25</h3>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</div>
+</body>
+</html>
